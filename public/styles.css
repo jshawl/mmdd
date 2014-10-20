@@ -9,72 +9,12 @@
 
 body{
   margin:0;
-}
-
-.opts a,
-label{
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  display:none;
-  background:#f7f7f7;
-  text-decoration:none;
-  border:1px solid #ddd;
-  padding:1em;
-  color:rgba(0,0,0,.6);
-  text-transform:uppercase;
-  z-index:999;
-  font-size:.7em;
-  letter-spacing: 3px;
-  font-weight:600;
-}
-
-.opts.active a{
-  display:block;
-}
-
-.opts a:nth-child(2){
-  border-radius:0 0 10px 10px;
-  border-top:0;
-}
-.opts a:nth-child(1){
-  border-radius:10px 10px 0 0 ;
-}
-
-.opts a.active{
-  display:block;
-  border-radius:10px;
-  border:1px solid #ddd;
-}
-
-.opts.active a:nth-child(1){
-  border-radius: 10px 10px 0 0;
-}
-.opts.active a:nth-child(2){
-  border-radius: 0 0 10px 10px ;
-}
-
-
-.CodeMirror-gutters {
-  border-left:1px solid #ddd;
-}
-
-label{
-display: block;
-position: absolute;
-right: 10px;
-top: 10px;
-}
-
-
-body{
   font-family:'Lato';
 }
 
 header {
   padding:20px 0px 20px 0px;
   font-weight:400;
-  background:#000;
 }
 
 header:after{
@@ -86,7 +26,6 @@ header:after{
 header h1{
   float:left;
   font-size:1em;
-  text-transform: uppercase;
   letter-spacing: 3px;
   margin:0;
   padding-left:28px;
@@ -103,32 +42,26 @@ header nav{
 }
 
 header nav a {
-  margin-right:28px;
   font-size:1em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  padding:0 1em;
 }
 
-header nav a:hover {
-  border-bottom:2px solid #fff;
-}
 
 header nav li{
   display:inline-block;
 }
 
 header a {
-  color:#fff;
   text-decoration:none;
+  color:#000;
 }
 
 header h1 a{
-  color:#fff;
   text-decoration:none;
 }
 
 .CodeMirror{
-  font-family:'Inconsalata'
+  font-family:'Helvetica Neue'
 }
 
 footer{

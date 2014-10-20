@@ -20,16 +20,7 @@
 	</ul>
       </nav>
     </header>
-<form method='post' class='input sass' action='/compile'>
-  <div class='opts'>
-    <a data-lang='scss' href='#' class='active'>scss</a>
-    <a href='#' data-lang='less'>less</a>
-    <span>&blacktriangledown;</span>
-  </div>
+<form method='post' class='input' action='/compile'>
   <textarea class='js-input' name='scss'><%= @input %></textarea>
-</form>
-<form class='css'>
-  <label for='css'>css</label>
-  <textarea class='js-css' name='css'><%= @output %></textarea>
 </form>
 <%= erb :'includes/footer' %>
